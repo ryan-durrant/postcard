@@ -1,0 +1,66 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+html {
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: black;
+    opacity: 0.75;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    position: relative;
+    bottom: 50px;
+}
+
+ul{
+  padding: 0px 0px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 22px 28px;
+    color: white;
+    /*position: relative;
+    right: 15px;*/
+}
+
+.jumbotron h1 {
+    color: white;
+}
+
+.jumbotron {
+    height: 100vh;
+    text-align: center;
+    background-image: url(../imgs/postcard.jpg);
+    background-size: cover;
+    /*display: flex;
+  justify-content: center;*/
+}
+
+.btn {
+    background: none;
+    border: 3px solid white;
+    color: white;
+    position: relative;
+    top: 400px;
+    width: 8em;
+    height: 3.5em;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.homePhrase {
+    position: relative;
+    top: 350px;
+}
