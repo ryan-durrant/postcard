@@ -1,3 +1,3 @@
 (function(window, document) {
-  angular.module("app.js", []);
+  angular.module("app", []);
 })(window, document);

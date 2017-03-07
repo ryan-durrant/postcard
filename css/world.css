@@ -38,7 +38,7 @@ height: 35px;
 
 .jumbotron {
     position: relative;
-    top: -20px;
+    /*top: -20px;*/
     height: 107vh;
     text-align: center;
     background-image: url(../imgs/world.png);
@@ -49,4 +49,29 @@ height: 35px;
 
 .worldMap {
 
+}
+
+/*.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}*/
+
+.closebtn {
+    margin-left: 15px;
+    font-weight: bold;
+    /*float: right;*/
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+.alert {
+    padding: 15px 15px 15px 35px;
+    text-align: center;
 }
