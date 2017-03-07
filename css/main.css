@@ -15,7 +15,7 @@ nav {
     opacity: 0.75;
     text-align: center;
     margin: auto;
-    width: 40%;
+    width: 45%;
     position: relative;
     bottom: 50px;
 }
@@ -63,4 +63,15 @@ nav li {
 .homePhrase {
     position: relative;
     top: 350px;
+}
+
+@media screen and (max-width: 1280px) {
+    .homePhrase {
+      position: relative;
+      top: 135px;
+    }
+    .btn {
+      position: relative;
+      top: 185px;
+    }
 }

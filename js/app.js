@@ -1,5 +1,3 @@
 (function(window, document) {
-  'use strict';
-
-  angular.module('app', []);
+  angular.module("app.js", []);
 })(window, document);

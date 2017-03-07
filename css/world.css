@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.navbar-default .navbar-brand {
+      color: black;
+      font-size: 39px;
+      font-weight: bold;
+  }
+
+  .container-fluid {
+      padding: 10px;
+      margin-right: auto;
+      margin-left: auto;
+}
