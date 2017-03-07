@@ -1,11 +1,10 @@
 html {
     box-sizing: border-box;
-    height: 100vh;
 }
 
 .navbar-default .navbar-brand {
       color: black;
-      font-size: 39px;
+      font-size: 35px;
       font-weight: bold;
   }
 
@@ -13,4 +12,41 @@ html {
       padding: 10px;
       margin-right: auto;
       margin-left: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+.navbar-header .centerHeader {
+  display: flex;
+  align-items: center;
+}
+
+/*.centerHeader {
+  position: relative;
+  right: 13%
+}
+
+.searchBar {
+  position: relative;
+  left: 13%
+}*/
+
+.searchBar img {
+height: 35px;
+}
+
+.jumbotron {
+    position: relative;
+    top: -20px;
+    height: 107vh;
+    text-align: center;
+    background-image: url(../imgs/world.png);
+    background-size: cover;
+    /*display: flex;
+  justify-content: center;*/
+}
+
+.worldMap {
+
 }
