@@ -39,7 +39,7 @@ height: 35px;
 .jumbotron {
     position: relative;
     /*top: -20px;*/
-    height: 107vh;
+    height: 109vh;
     text-align: center;
     background-image: url(../imgs/world.png);
     background-size: cover;
@@ -74,4 +74,8 @@ height: 35px;
 .alert {
     padding: 15px 15px 15px 35px;
     text-align: center;
+}
+
+ul {
+  list-style: none;
 }
