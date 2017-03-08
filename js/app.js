@@ -2,8 +2,8 @@
   angular.module("app", ['ui.router'])
   .config(function($stateProvider, $urlRouterProvider){
     $stateProvider
-      .state('main', {
-        url: '/main',
+      .state('home', {
+        url: '/',
         templateUrl: '../views/yourWorld.html'
       });
       // .state()
